@@ -4,6 +4,7 @@ img {
 
 .text-muted {
     color: firebrick;
+    padding-bottom: 10px;
 }
 
 .footer {
@@ -30,6 +31,12 @@ img {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
+.nav-justified > li :hover {
+    color: blue;
+    
+}
+
 .nav-justified > li > a {
   padding-top: 15px;
   padding-bottom: 15px;
