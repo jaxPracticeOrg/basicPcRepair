@@ -1,9 +1,9 @@
-body {
-  padding-top: 20px;
-}
-
 img {
     width: 100%;
+}
+
+.text-muted {
+    color: firebrick;
 }
 
 .footer {
@@ -15,7 +15,7 @@ img {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  text-align: center;
+  text-align: left;
   background-color: transparent;
 }
 .jumbotron .btn {
