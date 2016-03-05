@@ -2,9 +2,7 @@
 var app = angular.module('pcRepair', ['ui.router'])
 
 .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
-    
-    $urlRouterProvider.otherwise('/home');
-    
+        
     $stateProvider
     
     //Home State and Views 
@@ -33,7 +31,7 @@ var app = angular.module('pcRepair', ['ui.router'])
         // controller: 'mainCtrl'
     })    
     
-
+    $urlRouterProvider.otherwise('/home');
     
     
 //end    
