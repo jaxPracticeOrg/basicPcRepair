@@ -12,7 +12,7 @@ var app = angular.module('pcRepair', ['ui.router'])
     
     .state('home', {
         url: '/home',
-        templateUrl: '/views/home.html',
+        templateUrl: 'views/home.html',
         // controller: 'mainCtrl'
     })
     
